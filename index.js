@@ -10,21 +10,21 @@ var randomAnyKey = Math.floor(Math.random() * 12);
 document.getElementById("whiteButton").addEventListener("click", displayWhiteKey);
 
 function displayWhiteKey() {
-    alert(whiteKeyScales[randomWhiteKey]);
+    document.getElementById("displayKey").innerHTML=whiteKeyScales[randomWhiteKey];
     randomWhiteKey = Math.floor(Math.random() * 7);
 }
 
 document.getElementById("blackButton").addEventListener("click", displayBlackKey);
 
 function displayBlackKey() {
-    alert(blackKeyScales[randomBlackKey]);
+    document.getElementById("displayKey").innerHTML=blackKeyScales[randomBlackKey];
     randomBlackKey = Math.floor(Math.random() * 5);
 }
 
 document.getElementById("allRootsButton").addEventListener("click", displayAnyKey);
 
 function displayAnyKey() {
-    alert(allRoots[randomAnyKey]);
+    document.getElementById("displayKey").innerHTML=allRoots[randomAnyKey];
     randomAnyKey = Math.floor(Math.random() * 12);
 }
 

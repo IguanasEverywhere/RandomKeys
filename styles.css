@@ -5,10 +5,13 @@ body {
     font-family: 'Itim', cursive;
 }
 
-.heading {
-    align-self: center;
-    text-decoration: underline overline white;
+h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
 }
+
+
 
 .buttonSection {
     display: flex;
@@ -30,11 +33,7 @@ button:hover {
     background-color: rgb(241, 137, 177);
 }
 
-h1 {
-    font-size: 4rem;
-    color: white;
-    text-align: center;
-}
+
 
 .card {
     display: flex;
@@ -42,6 +41,11 @@ h1 {
     margin: 5% auto;
     background-color: rgb(57, 128, 235);
     border-radius: 5%;
+    box-shadow:0 0 25px rgb(31, 30, 30);
     
+}
+
+.heading {
+    align-self: center;
 }
 
